@@ -1,3 +1,7 @@
+#lang sicp
+
+(#%require rackunit)
+
 (define (square a) (* a a))
 
 (define (sumsquare b c) (+ (square b) (square c)))
